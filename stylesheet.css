@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    font-family: "Poppins", Calibri, Verdana, Geneva, Tahoma, sans-serif
+}
+
+.my-name {
+    font-size: 50px;
+}
+
+.my-role {
+    font-size: 25px;
+    color: #003285;
+}
+
+.hero {
+    text-align: center;
+    background-color: #FFDA78;
+    padding-top: 10%;
+    color: #003285;
+}
+
+.hero-image {
+    height: 100%;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.block1 {
+    display: flex;
+    background-color: #FF7F3E;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+
+.block1 h2 {
+    color: #003285;
+}
+
+.accomplishments {
+    float: left;
+    height: 300px;
+}
+
+.resume {
+    margin-left: -5%;
+}
+
+.resume > h3 {
+    color: #003285;
+}
+
+.about-me {
+    background-color: #2A629A;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+}
+
+.contact {
+    background-color: #003285;
+    color:#FF7F3E;
+    padding-top: 2%;
+    text-align: center;
+    padding: 7%;
+    display: flex;
+    justify-content: center;
+}
+
+.about-me-points h3 {
+    color:#FFDA78;
+}
+
+.about-me h2 {
+    color:#FFDA78;
+    margin-left: 50%;
+    padding: 3%;
+}
+
+.about-me-points {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.gaming {
+    float: left;
+    margin-right: 3%;
+    width: 200px;
+}
+
+.gaming > p {
+    padding-bottom: 10%;
+}
+
+.movies {
+    float: left;
+    margin-right: 3%;
+    width: 200px;
+}
+
+.paragraph-of-doom {
+    margin-bottom: 7%;
+}
+
+.paragraph-of-doom-2 {
+    margin-bottom: 7%;
+}
+
+.paragraph-of-doom-3 {
+    padding-bottom: 5%;
+}
+
+.contact-border {
+    border: solid #FF7F3E 3px;
+    width: 500px;
+}
+
+button {
+    margin-bottom: 15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #FF7F3E;
+    
+}
+
+.social-media {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.social-media li {
+    margin: 40px 40px 20px 40px;
+}
+
+.copyright {
+    text-align: center;
+    background-color: #FF7F3E;
+    margin: 0;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    color: beige;
+}
+
+.poppy-button {
+    background-color: white;  /* White background */
+    color: #333;              /* Dark text color for contrast */
+    border: 2px solid #333;   /* Dark border */
+    padding: 10px 20px;       /* Padding for a comfortable size */
+    font-size: 16px;          /* Font size */
+    font-weight: bold;        /* Bold text */
+    text-transform: uppercase;/* Uppercase text for a stronger appearance */
+    letter-spacing: 1px;      /* Spacing between letters */
+    border-radius: 8px;       /* Rounded corners */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    cursor: pointer;          /* Pointer cursor on hover */
+    transition: all 0.3s ease;/* Smooth transition for hover effects */
+}
+
+/* Hover effect */
+.poppy-button:hover {
+    background-color: #333;   /* Dark background on hover */
+    color: white;             /* White text on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+    transform: translateY(-3px); /* Slightly lifts the button on hover */
+}
+
+/* Active effect */
+.poppy-button:active {
+    transform: translateY(1px);  /* Subtle down movement on click */
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15); /* Shadow adjusts on click */
+}
